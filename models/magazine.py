@@ -25,7 +25,7 @@ class Magazine:
         if isinstance(name, str) and 2 <= len(name) <= 16:
             self._name = name
         else:
-            raise TypeError("mag name must be of type str and between 2 and 16 characters")
+            raise TypeError("name must be of type str and between 2 and 16 characters")
 
     @property
     def category(self):
